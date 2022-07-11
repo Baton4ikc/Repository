@@ -1,0 +1,74 @@
+body{
+  padding: 30px;
+}
+.App{
+  max-width: 800px;
+  margin: 0 auto;
+  
+}
+.head{
+  width: 100%;
+  background-image: url("./index.jpeg");
+  height: 18cm;
+  background-size: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wh-border{
+  border: #fff solid 1px;
+  height: 420px;
+  width: 620px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  margin-top: 100px;
+  color: white;
+  border-color:white;
+  background-color: Transparent;
+  height: 40px;
+  width: 180px;
+  cursor: pointer;
+}
+main{
+  height: 35cm;
+  background-color: aquamarine;
+  position: relative;
+}
+.block_1{
+  height: 10cm;
+  background-image: url(./potertost-uzor-temnyj-fon-tekstura.jpg);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  color: #fff;
+  
+}
+.sp-content{
+  width: 1000px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+} 
+.bt-content{
+  height: 400px;
+  width: 1000px;
+  background-color: blue;
+  margin-top: 14cm;
+  margin-left: 2.5cm;
+}
+.position{
+  position: absolute;
+  height: 600px;
+  width: 900px;
+  background-color: red;
+  top: 200px;
+  left: 150px;
+
+}
