@@ -37,7 +37,6 @@ button{
 }
 main{
   height: 35cm;
-  background-color: aquamarine;
   position: relative;
 }
 .block_1{
@@ -58,10 +57,11 @@ main{
 } 
 .bt-content{
   height: 400px;
-  width: 1000px;
-  background-color: blue;
+  width: 1050px;
   margin-top: 14cm;
-  margin-left: 2.5cm;
+  margin-left: 1.8cm;
+  display: flex;
+  justify-content: space-between;
 }
 .position{
   position: absolute;
@@ -71,4 +71,30 @@ main{
   top: 200px;
   left: 150px;
 
+}
+.pad{
+  width: 500px;
+  padding-right: 30px;
+}
+.red-line{
+  width: 100%;
+  height: 20px;
+  background-color: red;
+}
+.comand-content{
+  height: 16cm;
+
+}
+.center{
+  text-align: center;
+}
+.cont-img{
+  margin-top: 1cm;
+  height: 12cm;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.cen{
+  text-align: center;
 }
