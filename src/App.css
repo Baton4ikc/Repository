@@ -1,8 +1,9 @@
 body{
-  padding: 30px;
+  padding: 0 30px;
 }
 .App{
-  max-width: 800px;
+  display: flex;
+  max-width: 750x;
   margin: 0 auto;
   
 }
@@ -36,7 +37,7 @@ button{
   cursor: pointer;
 }
 main{
-  height: 35cm;
+   
   position: relative;
 }
 .block_1{
@@ -70,6 +71,10 @@ main{
   background-color: red;
   top: 200px;
   left: 150px;
+  text-align: center;
+  padding: 0 30px ;
+  box-sizing: border-box;
+  
 
 }
 .pad{
@@ -97,4 +102,136 @@ main{
 }
 .cen{
   text-align: center;
+}
+.block_3{
+  width: 100%;
+  height: max-content;
+  background-color: black;
+  position: relative;
+}
+.grey{
+  height: 8cm;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.white-content{
+  height: 12cm;
+  background-color: #fff;
+  display: flex;
+  align-items: flex-end;
+}
+.icon{
+  width: 100%;
+  height: 8cm;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 34px 0;
+}
+.bg-img{
+  height: 10cm;
+  width: 100%;
+  background-color: rebeccapurple;  
+  display: table;
+  color: #fff;
+}
+.bgImg1{
+  height: 100%;
+  width: 250px;
+  display:table-cell;
+  background-image: url("./250px-MackenzieDelta23.jpg");
+  background-size: 100%;
+  padding-bottom: 60px;
+  padding-left: 30px;
+  vertical-align: bottom;
+}
+.bgImg2{
+  height: 100%;
+  width: 250px;
+  display:table-cell;
+  background-image: url("./250img.jpg");
+  background-size: 100%;
+  padding-bottom: 60px;
+  padding-left: 30px;
+  vertical-align: bottom;
+}
+.bgImg3{
+  height: 100%;
+  width: 250px;
+  background-color: yellowgreen;
+  display:table-cell;
+  background-image: url("./kuzn.jpg");
+  background-size: 100%;
+  padding-bottom: 60px;
+  padding-left: 30px;
+  vertical-align: bottom;
+}
+.footer{
+  display: flex;
+  height: 160px;
+  width: 100%;
+  background-color: gray;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 32px;
+  box-sizing: border-box;
+  color: #fff;
+}
+.icons{
+  display: flex;
+}
+.divider{
+  display: flex;
+  border-bottom: 1px solid whitesmoke;
+  width: 100%;
+  margin:24px 0;
+}
+.absolut{
+  margin-top: 230px;
+  margin-left: 25%;
+  position: absolute;
+  height: 300px;
+  width: 600px;
+  background-color: red;
+}
+.imgContent1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+  width: 800px; 
+  height: 200px;
+  background-color: black;
+  margin-top: 20px;
+  color: #fff;
+}
+.img1{
+  height: 140px;
+  width: 200px;
+  background-color: aqua;
+}
+.img2{
+  height: 140px;
+  width: 200px;
+  background-color: olive;
+}
+.img3{
+  height: 140px;
+  width: 200px;
+  background-color: blueviolet;
+}
+.imgContent2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+  width: 800px; 
+  height: 200px;
+  background-color: black;
+  margin-top: 20px;
+  color: #fff;
 }
